@@ -1,0 +1,59 @@
+.App {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: greenyellow;
+}
+
+.App-header {
+    /* width: 10vw; */
+    height: 10vh;
+    background-color: #282c34;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    }
+
+.App-body{
+    /* width: 90vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 80%;
+}
+
+.App-footer{
+    height: 10%;
+}
+
+.cont1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+}
+
+.form-container{
+    text-align: center;
+}
+
+.form-title{
+    color:rgb(144, 119, 255);
+}
+
+.cont2{
+    height: 40%;
+    width: 40%;
+}
+
+.date {
+    padding: 2rem;
+    background: white;
+    border-bottom: 1px solid #e1e1e1;
+    color: black;
+  }
